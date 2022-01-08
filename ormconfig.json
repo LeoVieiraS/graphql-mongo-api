@@ -1,0 +1,14 @@
+{
+  "name": "default",
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "test",
+  "username": "test",
+  "password": "test",
+  "authSource": "admin",
+  "synchronize": false,
+  "logging": true,
+  "useUnifiedTopology": true,
+  "entities": ["src/entity/*.*"]
+}
